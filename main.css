@@ -1,0 +1,76 @@
+.flowContiner {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.596);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.flowCard {
+  width: 200px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 8px;
+  border-radius: 3px;
+}
+.flowCard button {
+  height: fit-content;
+  padding: 5px;
+  color: #508bbd;
+}
+.flowCard button:hover {
+  height: fit-content;
+  padding: 5px;
+  background-color: #508bbd;
+  color: whitesmoke;
+  border-radius: 3px;
+}
+
+.finishCard {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.down::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(-135deg, transparent 7px, white 7px);
+  position: absolute;
+  top: -8px;
+}
+.up::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(45deg, transparent 7px, white 7px);
+  position: absolute;
+  bottom: -8px;
+}
+.left::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(-45deg, transparent 7px, white 7px);
+  position: absolute;
+  right: -8px;
+  top: 0px;
+}
+.right::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(45deg, transparent 7px, white 7px);
+  position: absolute;
+  left: -8px;
+  top: 0px;
+}

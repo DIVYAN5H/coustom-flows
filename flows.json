@@ -1,0 +1,13 @@
+[
+    {
+        "id": "reset",
+        "position": "up",
+        "desc": "first card description"
+    },
+    {
+        "id": "message",
+        "position": "right",
+        "desc": "second card description"
+    }
+
+]
