@@ -1,6 +1,6 @@
 let flowsCardsInfo = [];
 let noOfFlow = 0;
-fetch("flows.json")
+fetch("../flows.json")
     .then(function (response) {
         return response.json();
     })
